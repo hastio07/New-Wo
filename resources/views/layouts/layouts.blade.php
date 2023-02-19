@@ -23,7 +23,6 @@
     <link rel="stylesheet" href="template/assets/css/style.min.css">
     <link rel="stylesheet" href="template/assets/css/bootstrap-override.min.css">
     <link rel="stylesheet" id="theme-color" href="template/assets/css/dark.min.css">
-
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
 </head>
 

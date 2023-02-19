@@ -19,3 +19,6 @@ Route::get('/', function () {
 Route::get('/manageakun', function () {
     return view('ManageAkun');
 });
+Route::get('/dashboard', function () {
+    return view('Dashboard');
+});
