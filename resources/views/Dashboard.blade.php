@@ -100,35 +100,4 @@
     </div>
 </div>
 </div>
-
-<footer>
-    Copyright © 2023 &nbsp <a href="https://www.instagram.com/moeliadesign/" target="_blank" class="ml-1">Moelia Design</a> <span> . All rights Reserved</span>
-</footer>
-<div class="overlay action-toggle">
-</div>
-</div>
-<script src="template/vendor/bootstrap/dist/js/bootstrap.bundle.js"></script>
-<script src="template/vendor/perfect-scrollbar/dist/perfect-scrollbar.min.js"></script>
-
-<!-- js for this page only -->
-<script src="template/vendor/chart.js/dist/Chart.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
-<script src="template/assets/js/page/index.js"></script>
-<!-- ======= -->
-<script src="template/assets/js/main.js"></script>
-<script>
-    Main.init()
-</script>
-<script src="template/vendor/jquery/dist/jquery.min.js"></script>
-<script src="template/vendor/bootstrap-datepicker/dist/js/bootstrap-datepicker.min.js"></script>
-<script>
-    $('.date').datepicker({
-        autoclose: true,
-        todayHighlight: true,
-        format: 'dd-mm-yyyy'
-    }).on('changeDate', function(e) {
-        console.log(e.target.value);
-    });
-</script>
-
 @endsection
