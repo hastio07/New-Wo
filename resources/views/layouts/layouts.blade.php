@@ -13,13 +13,21 @@
     <link rel="stylesheet" href="template/vendor/perfect-scrollbar/css/perfect-scrollbar.css">
     <link rel="stylesheet" href="template/vendor/bootstrap-datepicker/dist/css/bootstrap-datepicker.min.css">
 
+    <!-- CSS for manage jadwal only -->
+    <link href="template/vendor/datatables.net-dt/css/jquery.dataTables.min.css" rel="stylesheet" />
+    <link href="template/vendor/datatables.net-responsive-dt/css/responsive.dataTables.min.css" rel="stylesheet" />
+    <!-- End CSS  -->
+
     <!-- CSS for this page only -->
     <link rel="stylesheet" href="template/vendor/chart.js/dist/Chart.min.css">
     <!-- End CSS  -->
+
     <!-- css edit -->
     <link rel="stylesheet" href="template/assets/css/css-modif/Dashboard.css">
     <link rel="stylesheet" href="template/assets/css/css-modif/manageakun.css">
+    <link rel="stylesheet" href="template/assets/css/css-modif/ManageJadwal.css">
     <!-- end css -->
+
     <link rel="stylesheet" href="template/assets/css/style.min.css">
     <link rel="stylesheet" href="template/assets/css/bootstrap-override.min.css">
     <link rel="stylesheet" id="theme-color" href="template/assets/css/dark.min.css">
@@ -244,7 +252,7 @@
                         </a>
                     </li>
                     <li>
-                        <a href="/manageakun" class="link">
+                        <a href="/managejadwal" class="link">
                             <i class="ti-agenda"></i>
                             <span>Manage Jadwal</span>
                         </a>
@@ -296,8 +304,19 @@
     <script src="template/assets/js/page/index.js"></script>
     <!-- ======= -->
     <script src="template/assets/js/main.js"></script>
+
+    <!-- js for this page only -->
+    <script src="template/vendor/jquery/dist/jquery.min.js"></script>
+    <script src="template/vendor/datatables.net/js/jquery.dataTables.min.js"></script>
+    <script src="template/vendor/datatables.net-responsive/js/dataTables.responsive.min.js"></script>
+    <script src="template/assets/js/page/datatables.js"></script>
+    <!-- ======= -->
+
     <script>
         Main.init()
+    </script>
+    <script>
+        DataTable.init()
     </script>
     <script src="template/vendor/jquery/dist/jquery.min.js"></script>
     <script src="template/vendor/bootstrap-datepicker/dist/js/bootstrap-datepicker.min.js"></script>

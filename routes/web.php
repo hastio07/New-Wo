@@ -22,3 +22,6 @@ Route::get('/manageakun', function () {
 Route::get('/dashboard', function () {
     return view('Dashboard');
 });
+Route::get('/managejadwal', function () {
+    return view('ManageJadwal');
+});

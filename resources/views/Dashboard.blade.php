@@ -6,31 +6,99 @@
     Dashboard
 </div>
 <div class="content-wrapper">
-    <div class="same-height">
-        <div class="cards">
-            <div class="card">
-                <div class="card-body">
-                    <h1>Totoal Akun</h1>
-                    <p class="fw-bolder">10 <span><i class="bi bi-people-fill "></i></span></p>
-                </div>
+    <div class="row same-height">
+        <div class="col-md-8">
 
-            </div>
+        </div>
+        <div class="col-md-4">
             <div class="card">
-                <div class="card-body">
-                    <h1>Jadwal</h1>
-                    <p class="fw-bolder">10 <span><i class="bi bi-people-fill "></i></span></p>
+                <div class="card-header">
+                    <h4>Jadwal Kegiatan</h4>
                 </div>
-            </div>
-            <div class="card">
                 <div class="card-body">
-                    <h1>Totoal Produk</h1>
-                    <p class="fw-bolder">10 <span><i class="bi bi-people-fill "></i></span></p>
-                </div>
-            </div>
-            <div class="card">
-                <div class="card-body">
-                    <h1>Totoal Pesanan</h1>
-                    <p class="fw-bolder">10 <span><i class="bi bi-people-fill "></i></span></p>
+                    <ul class="timeline-xs">
+                        <li class="timeline-item success">
+                            <div class="margin-left-15">
+                                <div class="text-muted text-small">
+                                    Minggu, 1 januari 2023
+                                </div>
+                                <p>
+                                    <a class="text-info" href="">
+                                        Bambang
+                                    </a>
+                                    has completed his account.
+                                </p>
+                            </div>
+                        </li>
+                        <li class="timeline-item">
+                            <div class="margin-left-15">
+                                <div class="text-muted text-small">
+                                    senin, 2 januari 2023
+                                </div>
+                                <p>
+                                    Staff Meeting
+                                </p>
+                            </div>
+                        </li>
+                        <li class="timeline-item danger">
+                            <div class="margin-left-15">
+                                <div class="text-muted text-small">
+                                    Minggu, 3 januari 2023
+                                </div>
+                                <p>
+                                    Completed new layout.
+                                </p>
+                            </div>
+                        </li>
+                        <li class="timeline-item info">
+                            <div class="margin-left-15">
+                                <div class="text-muted text-small">
+                                    Minggu, 4 januari 2023
+                                </div>
+                                <p>
+                                    Contacted
+                                    <a class="text-info" href="">
+                                        Microsoft
+                                    </a>
+                                    for license upgrades.
+                                </p>
+                            </div>
+                        </li>
+                        <li class="timeline-item">
+                            <div class="margin-left-15">
+                                <div class="text-muted text-small">
+                                    Minggu, 5 januari 2023
+                                </div>
+                                <p>
+                                    Started development new site
+                                </p>
+                            </div>
+                        </li>
+                        <li class="timeline-item">
+                            <div class="margin-left-15">
+                                <div class="text-muted text-small">
+                                    Minggu,6 januari 2023
+                                </div>
+                                <p>
+                                    Lunch with
+                                    <a class="text-info" href="">
+                                        Mba Inem
+                                    </a>
+                                    .
+                                </p>
+                            </div>
+                        </li>
+                        <li class="timeline-item warning">
+                            <div class="margin-left-15">
+                                <div class="text-muted text-small">
+                                    Minggu,7 januari 2023
+                                </div>
+                                <p>
+                                    server Maintenance.
+                                </p>
+                            </div>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </div>
@@ -91,7 +159,6 @@
     </div>
 </div>
 </div>
-
 <div class="settings">
     <div class="settings-icon-wrapper">
         <div class="settings-icon">
