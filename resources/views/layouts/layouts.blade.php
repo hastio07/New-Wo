@@ -26,6 +26,7 @@
     <link rel="stylesheet" href="template/assets/css/css-modif/Dashboard.css">
     <link rel="stylesheet" href="template/assets/css/css-modif/manageakun.css">
     <link rel="stylesheet" href="template/assets/css/css-modif/ManageJadwal.css">
+    <link rel="stylesheet" href="template/assets/css/css-modif/ManageProduk.css">
     <!-- end css -->
 
     <link rel="stylesheet" href="template/assets/css/style.min.css">
@@ -224,20 +225,10 @@
             <div class="sidebar-content">
                 <ul>
                     <li class="active">
-                        <a href="../layouts/Dashboard" class="link">
+                        <a href="/dashboard" class="link">
                             <i class="ti-home"></i>
                             <span>Dashboard</span>
                         </a>
-                    </li>
-                    <li>
-                        <a href="#" class="main-menu has-dropdown">
-                            <i class="ti-desktop"></i>
-                            <span>UI Elements</span>
-                        </a>
-                        <ul class="sub-menu ">
-                            <li><a href="element-ui.html" class="link"><span>Elements</span></a></li>
-                            <li><a href="element-accordion.html" class="link"><span>Accordion</span></a></li>
-                        </ul>
                     </li>
                     <li>
                         <a href="/manageakun" class="link">
@@ -246,7 +237,7 @@
                         </a>
                     </li>
                     <li>
-                        <a href="/manageakun" class="link">
+                        <a href="/manage-produk" class="link">
                             <i class="ti-view-grid"></i>
                             <span>Manage Produk</span>
                         </a>
@@ -265,8 +256,8 @@
                     </li>
                     <li>
                         <a href="#" class="main-menu has-dropdown">
-                            <i class="ti-time"></i>
-                            <span>Riwayat Customer</span>
+                            <i class="ti-shopping-cart-full"></i>
+                            <span>Manage Pesanan</span>
                         </a>
                         <ul class="sub-menu ">
                             <li><a href="#" class="link"><span>Selesai Dikerjakan</span></a></li>
@@ -302,6 +293,7 @@
     <script src="template/vendor/chart.js/dist/Chart.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
     <script src="template/assets/js/page/index.js"></script>
+    <script src="template/assets/js/page/jsUploadImg.js"></script>
     <!-- ======= -->
     <script src="template/assets/js/main.js"></script>
 

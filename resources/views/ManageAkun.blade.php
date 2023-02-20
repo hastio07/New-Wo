@@ -9,66 +9,59 @@
         <div class="row same-height">
             <div class="col-md-8">
                 <div class="card">
-                    <div class="header-statistics">
-                        <h5>Daftar Akun</h5>
+                    <div class="card-header">
+                        <h4>List Produk</h4>
                     </div>
                     <div class="card-body">
-                        <div class="table-responsive">
-                            <table class="table small-font table-striped table-hover table-sm">
-                                <thead>
-                                    <tr>
-                                        <th scope="col">No.</th>
-                                        <th scope="col">Role</th>
-                                        <th scope="col">Nama</th>
-                                        <th scope="col">Email</th>
-                                        <th scope="col">No. Telephone</th>
-                                        <th scope="col">Aksi</th>
+                        <table id="example2" class="table display">
+                            <thead>
+                                <tr>
+                                    <th>Nama User</th>
+                                    <th>E-Mail</th>
+                                    <th>No. Handphone</th>
+                                    <th>Role Akun</th>
+                                    <th>Aksi</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Abdulloh</td>
+                                    <td>contoh@email.ac.id</td>
+                                    <td>08125251515</td>
+                                    <td>Super Admin</td>
+                                    <td>
+                                        <div class="d-grid gap-2 d-md-flex justify-content-md-center">
+                                            <button class="btn btn-primary" type="button"><i class="bi bi-eye"></i></button>
+                                            <button class="btn btn-warning" type="button"><i class="bi bi-pencil-square"></i></button>
+                                            <button class="btn btn-danger" type="button"><i class="bi bi-trash"></i></button>
+                                        </div>
+                                    </td>
 
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <th scope="row">1</th>
-                                        <td>Super Admin</td>
-                                        <td>John</td>
-                                        <td>contoh@email.com</td>
-                                        <td>0817123456</td>
-                                        <td>
-                                            <div class="d-grid gap-2 d-md-flex justify-content-md-center">
-                                                <button class="btn btn-warning me-md-2" type="button"><i class="bi bi-pencil-square"></i></button>
-                                                <button class="btn btn-danger" type="button"><i class="bi bi-trash"></i></button>
-                                            </div>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <th scope="row">2</th>
-                                        <td>Admin</td>
-                                        <td>Thornton</td>
-                                        <td>contoh@email.com</td>
-                                        <td>0817123456</td>
-                                        <td>
-                                            <div class="d-grid gap-2 d-md-flex justify-content-md-center">
-                                                <button class="btn btn-warning me-md-2" type="button"><i class="bi bi-pencil-square"></i></button>
-                                                <button class="btn btn-danger" type="button"><i class="bi bi-trash"></i></button>
-                                            </div>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <th scope="row">3</th>
-                                        <td>Super User</td>
-                                        <td>Akhbar</td>
-                                        <td>contoh@email.com</td>
-                                        <td>0817123456</td>
-                                        <td>
-                                            <div class="d-grid gap-2 d-md-flex justify-content-md-center">
-                                                <button class="btn btn-warning me-md-2" type="button"><i class="bi bi-pencil-square"></i></button>
-                                                <button class="btn btn-danger" type="button"><i class="bi bi-trash"></i></button>
-                                            </div>
-                                        </td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </div>
+                                </tr>
+                                <tr>
+                                    <td>Sulaiman</td>
+                                    <td>contoh1@email.ac.id</td>
+                                    <td>081252154356</td>
+                                    <td>Admin</td>
+                                    <td>
+                                        <div class="d-grid gap-2 d-md-flex justify-content-md-center">
+                                            <button class="btn btn-primary" type="button"><i class="bi bi-eye"></i></button>
+                                            <button class="btn btn-warning" type="button"><i class="bi bi-pencil-square"></i></button>
+                                            <button class="btn btn-danger" type="button"><i class="bi bi-trash"></i></button>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </tbody>
+                            <tfoot>
+                                <tr>
+                                    <th>Name</th>
+                                    <th>Position</th>
+                                    <th>Office</th>
+                                    <th>Age</th>
+                                    <th>Aksi</th>
+                                </tr>
+                            </tfoot>
+                        </table>
                     </div>
                 </div>
             </div>

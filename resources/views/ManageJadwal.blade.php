@@ -83,7 +83,8 @@
                         </div>
                         <div class="form-inpt">
                             <label for="basicInput" class="form-label">Jam Kegiatan</label>
-                            <input type="text" placeholder="Masukan Jam Kegiatan" class="form-control" id="basicInput">
+                            <input type="time" id="appt" name="appt" min="09:00" max="18:00" required class="form-control">
+
                         </div>
                         <div class="form-inpt">
                             <label for="datepicker-icon" class="form-label">Tentukan Tanggal</label>

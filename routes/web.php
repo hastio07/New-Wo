@@ -14,7 +14,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('/layouts/layouts');
+    return view('/Dashboard');
 });
 Route::get('/manageakun', function () {
     return view('ManageAkun');
@@ -24,4 +24,10 @@ Route::get('/dashboard', function () {
 });
 Route::get('/managejadwal', function () {
     return view('ManageJadwal');
+});
+Route::get('/manage-produk', function () {
+    return view('ManageProduk');
+});
+Route::get('/test', function () {
+    return view('test');
 });
