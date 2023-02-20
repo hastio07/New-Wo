@@ -8,8 +8,8 @@
     <div class="content-wrapper">
         <div class="row same-height">
             <div class="col-md-4">
-                <div class="card">
-                    <div class="card-header">
+                <div class="card-style bg-white shadow p-3 mb-5 bg-body rounded">
+                    <div class="card-header bg-white">
                         <h4 class="text-center">Tambah Produk</h4>
                     </div>
                     <div class="add-jadwal">

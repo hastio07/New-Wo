@@ -52,6 +52,149 @@
                                         </div>
                                     </td>
                                 </tr>
+                                <tr>
+                                    <td>Garrett Winters</td>
+                                    <td>Accountant</td>
+                                    <td>Tokyo</td>
+                                    <td>63</td>
+                                    <td>2011/07/25</td>
+                                    <td>
+                                        <div class="d-grid gap-2 d-md-flex justify-content-md-center">
+                                            <button class="btn btn-warning me-md-2" type="button"><i class="bi bi-pencil-square"></i></button>
+                                            <button class="btn btn-danger" type="button"><i class="bi bi-trash"></i></button>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Garrett Winters</td>
+                                    <td>Accountant</td>
+                                    <td>Tokyo</td>
+                                    <td>63</td>
+                                    <td>2011/07/25</td>
+                                    <td>
+                                        <div class="d-grid gap-2 d-md-flex justify-content-md-center">
+                                            <button class="btn btn-warning me-md-2" type="button"><i class="bi bi-pencil-square"></i></button>
+                                            <button class="btn btn-danger" type="button"><i class="bi bi-trash"></i></button>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Garrett Winters</td>
+                                    <td>Accountant</td>
+                                    <td>Tokyo</td>
+                                    <td>63</td>
+                                    <td>2011/07/25</td>
+                                    <td>
+                                        <div class="d-grid gap-2 d-md-flex justify-content-md-center">
+                                            <button class="btn btn-warning me-md-2" type="button"><i class="bi bi-pencil-square"></i></button>
+                                            <button class="btn btn-danger" type="button"><i class="bi bi-trash"></i></button>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Garrett Winters</td>
+                                    <td>Accountant</td>
+                                    <td>Tokyo</td>
+                                    <td>63</td>
+                                    <td>2011/07/25</td>
+                                    <td>
+                                        <div class="d-grid gap-2 d-md-flex justify-content-md-center">
+                                            <button class="btn btn-warning me-md-2" type="button"><i class="bi bi-pencil-square"></i></button>
+                                            <button class="btn btn-danger" type="button"><i class="bi bi-trash"></i></button>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Garrett Winters</td>
+                                    <td>Accountant</td>
+                                    <td>Tokyo</td>
+                                    <td>63</td>
+                                    <td>2011/07/25</td>
+                                    <td>
+                                        <div class="d-grid gap-2 d-md-flex justify-content-md-center">
+                                            <button class="btn btn-warning me-md-2" type="button"><i class="bi bi-pencil-square"></i></button>
+                                            <button class="btn btn-danger" type="button"><i class="bi bi-trash"></i></button>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Garrett Winters</td>
+                                    <td>Accountant</td>
+                                    <td>Tokyo</td>
+                                    <td>63</td>
+                                    <td>2011/07/25</td>
+                                    <td>
+                                        <div class="d-grid gap-2 d-md-flex justify-content-md-center">
+                                            <button class="btn btn-warning me-md-2" type="button"><i class="bi bi-pencil-square"></i></button>
+                                            <button class="btn btn-danger" type="button"><i class="bi bi-trash"></i></button>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Garrett Winters</td>
+                                    <td>Accountant</td>
+                                    <td>Tokyo</td>
+                                    <td>63</td>
+                                    <td>2011/07/25</td>
+                                    <td>
+                                        <div class="d-grid gap-2 d-md-flex justify-content-md-center">
+                                            <button class="btn btn-warning me-md-2" type="button"><i class="bi bi-pencil-square"></i></button>
+                                            <button class="btn btn-danger" type="button"><i class="bi bi-trash"></i></button>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Garrett Winters</td>
+                                    <td>Accountant</td>
+                                    <td>Tokyo</td>
+                                    <td>63</td>
+                                    <td>2011/07/25</td>
+                                    <td>
+                                        <div class="d-grid gap-2 d-md-flex justify-content-md-center">
+                                            <button class="btn btn-warning me-md-2" type="button"><i class="bi bi-pencil-square"></i></button>
+                                            <button class="btn btn-danger" type="button"><i class="bi bi-trash"></i></button>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Garrett Winters</td>
+                                    <td>Accountant</td>
+                                    <td>Tokyo</td>
+                                    <td>63</td>
+                                    <td>2011/07/25</td>
+                                    <td>
+                                        <div class="d-grid gap-2 d-md-flex justify-content-md-center">
+                                            <button class="btn btn-warning me-md-2" type="button"><i class="bi bi-pencil-square"></i></button>
+                                            <button class="btn btn-danger" type="button"><i class="bi bi-trash"></i></button>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Garrett Winters</td>
+                                    <td>Accountant</td>
+                                    <td>Tokyo</td>
+                                    <td>63</td>
+                                    <td>2011/07/25</td>
+                                    <td>
+                                        <div class="d-grid gap-2 d-md-flex justify-content-md-center">
+                                            <button class="btn btn-warning me-md-2" type="button"><i class="bi bi-pencil-square"></i></button>
+                                            <button class="btn btn-danger" type="button"><i class="bi bi-trash"></i></button>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Garrett Winters</td>
+                                    <td>Accountant</td>
+                                    <td>Tokyo</td>
+                                    <td>63</td>
+                                    <td>2011/07/25</td>
+                                    <td>
+                                        <div class="d-grid gap-2 d-md-flex justify-content-md-center">
+                                            <button class="btn btn-warning me-md-2" type="button"><i class="bi bi-pencil-square"></i></button>
+                                            <button class="btn btn-danger" type="button"><i class="bi bi-trash"></i></button>
+                                        </div>
+                                    </td>
+                                </tr>
                             </tbody>
                             <tfoot>
                                 <tr>
@@ -62,14 +205,15 @@
                                     <th>Start date</th>
                                     <th>Aksi</th>
                                 </tr>
+
                             </tfoot>
                         </table>
                     </div>
                 </div>
             </div>
             <div class="col-md-4">
-                <div class="card">
-                    <div class="card-header">
+                <div class="card-style bg-white shadow p-3 mb-5 bg-body rounded">
+                    <div class="card-header bg-white">
                         <h4 class="text-center">Tambah Jadwal</h4>
                     </div>
                     <div class="add-jadwal">

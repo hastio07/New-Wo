@@ -66,8 +66,8 @@
                 </div>
             </div>
             <div class="col-md-4">
-                <div class="card">
-                    <div class="card-header">
+                <div class="card-style bg-white shadow p-3 mb-5 bg-body rounded">
+                    <div class="card-header bg-white">
                         <h4 class="text-center">Tambah Akun</h4>
                     </div>
                     <div class="card-body">
@@ -90,7 +90,7 @@
                                 <input type="email" class="form-control bg-transparent" id="email" placeholder="Masukan Email" required>
                             </div>
                             <!-- No. Hp-->
-                            <label for="NomorHp" class="NomorHp">Nomor Handphone</label>
+                            <label for="NomorHp" class="form-label">Nomor Handphone</label>
                             <div class="input-group mb-3">
                                 <span class="input-group-text bg-transparent"><i class="bi bi-phone"></i></span>
                                 <input type="NomorHp" class="form-control bg-transparent" id="NomorHp" placeholder="Masukan Nomor HP" required>
@@ -107,7 +107,7 @@
                                 </div>
                             </div>
                             <div class="btn-add row justify-content-center align-content-center">
-                                <button class="btn btn-primary" type="button ">Simpan</i></button>
+                                <button class="btn mb-2 icon-left  btn-success" type="button "><i class="ti-check"></i>selesai</i></button>
                             </div>
                         </div>
                     </div>

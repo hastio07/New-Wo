@@ -18,7 +18,7 @@
     <link href="template/vendor/datatables.net-responsive-dt/css/responsive.dataTables.min.css" rel="stylesheet" />
     <!-- End CSS  -->
 
-    <!-- CSS for this page only -->
+    <!-- CSS for all page -->
     <link rel="stylesheet" href="template/vendor/chart.js/dist/Chart.min.css">
     <!-- End CSS  -->
 
@@ -249,12 +249,6 @@
                         </a>
                     </li>
                     <li>
-                        <a href="/manageakun" class="link">
-                            <i class="ti-shopping-cart-full"></i>
-                            <span>Manage Pesanan</span>
-                        </a>
-                    </li>
-                    <li>
                         <a href="#" class="main-menu has-dropdown">
                             <i class="ti-shopping-cart-full"></i>
                             <span>Manage Pesanan</span>
@@ -263,6 +257,12 @@
                             <li><a href="#" class="link"><span>Selesai Dikerjakan</span></a></li>
                             <li><a href="#" class="link"><span>Belum Dikerjakan</span></a></li>
                         </ul>
+                    </li>
+                    <li>
+                        <a href="/managalery" class="link">
+                            <i class="ti-shopping-cart-full"></i>
+                            <span>Manage Pesanan</span>
+                        </a>
                     </li>
                 </ul>
             </div>
@@ -286,31 +286,42 @@
     <div class="overlay action-toggle">
     </div>
     </div>
+
+    <!-- js for all page -->
     <script src="template/vendor/bootstrap/dist/js/bootstrap.bundle.js"></script>
     <script src="template/vendor/perfect-scrollbar/dist/perfect-scrollbar.min.js"></script>
-
-    <!-- js for this page only -->
     <script src="template/vendor/chart.js/dist/Chart.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
     <script src="template/assets/js/page/index.js"></script>
+    <script src="template/assets/js/main.js"></script>
+    <!-- ======= -->
+
+    <!-- script for upload form image -->
     <script src="template/assets/js/page/jsUploadImg.js"></script>
     <!-- ======= -->
-    <script src="template/assets/js/main.js"></script>
 
-    <!-- js for this page only -->
+
+
+    <!-- js for page table-->
     <script src="template/vendor/jquery/dist/jquery.min.js"></script>
     <script src="template/vendor/datatables.net/js/jquery.dataTables.min.js"></script>
     <script src="template/vendor/datatables.net-responsive/js/dataTables.responsive.min.js"></script>
     <script src="template/assets/js/page/datatables.js"></script>
     <!-- ======= -->
 
-    <script>
-        Main.init()
-    </script>
+
+    <!-- script for table -->
     <script>
         DataTable.init()
     </script>
+    <!-- ======= -->
+    <script>
+        Main.init()
+    </script>
+
     <script src="template/vendor/jquery/dist/jquery.min.js"></script>
+
+    <!-- script for datepicker-->
     <script src="template/vendor/bootstrap-datepicker/dist/js/bootstrap-datepicker.min.js"></script>
     <script>
         $('.date').datepicker({
@@ -321,6 +332,7 @@
             console.log(e.target.value);
         });
     </script>
+    <!-- ======= -->
 </body>
 
 </html>
