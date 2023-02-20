@@ -31,3 +31,9 @@ Route::get('/manage-produk', function () {
 Route::get('/test', function () {
     return view('test');
 });
+Route::get('/manage-gallery', function () {
+    return view('ManageGallery');
+});
+Route::get('/manage-pesanan', function () {
+    return view('ManagePesanan');
+});

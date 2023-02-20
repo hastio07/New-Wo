@@ -75,7 +75,7 @@
                                         <div class="d-grid gap-2 d-md-flex justify-content-md-center">
                                             <button class="btn btn-primary" type="button"><i class="bi bi-eye"></i></button>
                                             <button class="btn btn-warning" type="button"><i class="bi bi-pencil-square"></i></button>
-                                            <button class="btn btn-danger" type="button"><i class="bi bi-trash"></i></button>
+                                            <button class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#smallModal" type="button"><i class="bi bi-trash"></i></button>
                                         </div>
                                     </td>
 
@@ -91,20 +91,20 @@
                                         <div class="d-grid gap-2 d-md-flex justify-content-md-center">
                                             <button class="btn btn-primary" type="button"><i class="bi bi-eye"></i></button>
                                             <button class="btn btn-warning" type="button"><i class="bi bi-pencil-square"></i></button>
-                                            <button class="btn btn-danger" type="button"><i class="bi bi-trash"></i></button>
+                                            <button class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#smallModal" type="button"><i class="bi bi-trash"></i></button>
                                         </div>
                                     </td>
                                 </tr>
                             </tbody>
                             <tfoot>
                                 <tr>
-                                    <th>Name</th>
-                                    <th>Position</th>
-                                    <th>Office</th>
-                                    <th>Age</th>
-                                    <th>Start date</th>
+                                    <th>Nama Produk</th>
+                                    <th>Kategori</th>
+                                    <th>Harga Sewa</th>
+                                    <th>Detail Produk</th>
+                                    <th>Deskripsi</th>
+                                    <th>Gambar</th>
                                     <th>Aksi</th>
-                                    <th>img1.jpg</th>
                                 </tr>
                             </tfoot>
                         </table>

@@ -1,5 +1,5 @@
 @extends('layouts.layouts')
 
 @section('content')
-<h1>INI GALLERY</h1>
+<h1>INI Daftar Pesanan</h1>
 @endsection

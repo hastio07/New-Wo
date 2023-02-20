@@ -10,7 +10,7 @@
             <div class="col-md-8">
                 <div class="card">
                     <div class="card-header">
-                        <h4>List Produk</h4>
+                        <h4>List Akun</h4>
                     </div>
                     <div class="card-body">
                         <table id="example2" class="table display">
@@ -31,9 +31,8 @@
                                     <td>Super Admin</td>
                                     <td>
                                         <div class="d-grid gap-2 d-md-flex justify-content-md-center">
-                                            <button class="btn btn-primary" type="button"><i class="bi bi-eye"></i></button>
                                             <button class="btn btn-warning" type="button"><i class="bi bi-pencil-square"></i></button>
-                                            <button class="btn btn-danger" type="button"><i class="bi bi-trash"></i></button>
+                                            <button class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#smallModal" type="button"><i class="bi bi-trash"></i></button>
                                         </div>
                                     </td>
 
@@ -45,19 +44,18 @@
                                     <td>Admin</td>
                                     <td>
                                         <div class="d-grid gap-2 d-md-flex justify-content-md-center">
-                                            <button class="btn btn-primary" type="button"><i class="bi bi-eye"></i></button>
                                             <button class="btn btn-warning" type="button"><i class="bi bi-pencil-square"></i></button>
-                                            <button class="btn btn-danger" type="button"><i class="bi bi-trash"></i></button>
+                                            <button class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#smallModal" type="button"><i class="bi bi-trash"></i></button>
                                         </div>
                                     </td>
                                 </tr>
                             </tbody>
                             <tfoot>
                                 <tr>
-                                    <th>Name</th>
-                                    <th>Position</th>
-                                    <th>Office</th>
-                                    <th>Age</th>
+                                    <th>Nama User</th>
+                                    <th>E-Mail</th>
+                                    <th>No. Handphone</th>
+                                    <th>Role Akun</th>
                                     <th>Aksi</th>
                                 </tr>
                             </tfoot>

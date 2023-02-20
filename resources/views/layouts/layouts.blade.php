@@ -36,6 +36,27 @@
 </head>
 
 <body>
+    <!-- modal untuk hapus -->
+    <div class="Modal">
+        <div class="modal fade" id="smallModal" tabindex="-1" aria-labelledby="smallModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-sm">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="smallModalLabel">Peringatan!</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <h6>Yakin Ingin Menghapusnya?</h6>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Tutup</button>
+                        <button type="button" class="btn btn-danger">YA</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end modal -->
     <div id="app">
         <div class="shadow-header"></div>
         <header class="header-navbar fixed">
@@ -217,7 +238,8 @@
                 </a>
             </div>
             <div class="sidebar-header">
-                <div class="text">MD</div>
+                <img src="template/assets/images/logoMulia.jpg" class="rounded-circle w-100" alt="user1">
+                <!-- <div class="text">MD</div> -->
                 <div class="close-sidebar action-toggle">
                     <i class="ti-close"></i>
                 </div>
@@ -225,7 +247,7 @@
             <div class="sidebar-content">
                 <ul>
                     <li class="active">
-                        <a href="/dashboard" class="link">
+                        <a href="dashboard" class="link">
                             <i class="ti-home"></i>
                             <span>Dashboard</span>
                         </a>
@@ -254,15 +276,19 @@
                             <span>Manage Pesanan</span>
                         </a>
                         <ul class="sub-menu ">
-                            <li><a href="#" class="link"><span>Selesai Dikerjakan</span></a></li>
-                            <li><a href="#" class="link"><span>Belum Dikerjakan</span></a></li>
+                            <li><a href="/manage-pesanan" class="link"><span>Selesai Dikerjakan</span></a></li>
+                            <li><a href="/manage-pesanan" class="link"><span>Belum Dikerjakan</span></a></li>
                         </ul>
                     </li>
                     <li>
-                        <a href="/managalery" class="link">
-                            <i class="ti-shopping-cart-full"></i>
-                            <span>Manage Pesanan</span>
+                        <a href="#" class="main-menu has-dropdown">
+                            <i class="ti-gallery"></i>
+                            <span>Manage Gallery</span>
                         </a>
+                        <ul class="sub-menu ">
+                            <li><a href="/manage-gallery" class="link"><span>Vidio Gallery</span></a></li>
+                            <li><a href="/manage-gallery" class="link"><span>Photo Gallery</span></a></li>
+                        </ul>
                     </li>
                 </ul>
             </div>
@@ -315,6 +341,7 @@
         DataTable.init()
     </script>
     <!-- ======= -->
+
     <script>
         Main.init()
     </script>
