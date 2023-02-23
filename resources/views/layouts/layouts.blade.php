@@ -27,6 +27,7 @@
     <link rel="stylesheet" href="template/assets/css/css-modif/manageakun.css">
     <link rel="stylesheet" href="template/assets/css/css-modif/ManageJadwal.css">
     <link rel="stylesheet" href="template/assets/css/css-modif/ManageProduk.css">
+    <link rel="stylesheet" href="template/assets/css/css-modif/test.css">
     <!-- end css -->
 
     <link rel="stylesheet" href="template/assets/css/style.min.css">
@@ -42,7 +43,7 @@
             <div class="modal-dialog modal-sm">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h5 class="modal-title" id="smallModalLabel">Peringatan!</h5>
+                        <h5 class="modal-title text-danger" id="smallModalLabel">Peringatan!</h5>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
@@ -320,6 +321,7 @@
     <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
     <script src="template/assets/js/page/index.js"></script>
     <script src="template/assets/js/main.js"></script>
+    <script src="template/assets/js/page/JsAddForm.js"></script>
     <!-- ======= -->
 
     <!-- script for upload form image -->

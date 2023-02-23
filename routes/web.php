@@ -37,3 +37,6 @@ Route::get('/manage-gallery', function () {
 Route::get('/manage-pesanan', function () {
     return view('ManagePesanan');
 });
+Route::get('/Home', function () {
+    return view('TampilanDepan/home');
+});

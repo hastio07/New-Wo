@@ -6,58 +6,76 @@
         <h5>Manage Produk</h5>
     </div>
     <div class="content-wrapper">
-        <div class="row same-height">
-            <div class="col-md-4">
-                <div class="card-style bg-white shadow p-3 mb-5 bg-body rounded">
-                    <div class="card-header bg-white">
-                        <h4 class="text-center">Tambah Produk</h4>
-                    </div>
-                    <div class="add-jadwal">
-                        <div class="form-inpt">
-                            <label for="basicInput" class="form-label">Nama Produk</label>
-                            <input type="text" placeholder="Masukan Nama" class="form-control" id="basicInput">
+        <div class="same-height">
+            <div class="modal fade" id="largeModal" tabindex="-1" aria-labelledby="largeModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="largeModalLabel">Tambah Produk</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
-                        <div class="form-inpt">
-                            <label for="basicInput" class="form-label">Kategori</label>
-                            <select class="form-select form-select" aria-label="Default select example">
-                                <option selected>Open this select menu</option>
-                                <option value="1">One</option>
-                                <option value="2">Two</option>
-                                <option value="3">Three</option>
-                            </select>
+                        <div class="modal-body">
+                            <div class="p-3 mb-5">
+                                <div class="add-jadwal">
+                                    <div class="form-inpt">
+                                        <label for="basicInput" class="form-label">Nama Produk</label>
+                                        <input type="text" placeholder="Masukan Nama" class="form-control" id="basicInput">
+                                    </div>
+                                    <div class="form-inpt">
+                                        <label for="basicInput" class="form-label">Kategori</label>
+                                        <select class="form-select form-select" aria-label="Default select example">
+                                            <option selected>Open this select menu</option>
+                                            <option value="1">One</option>
+                                            <option value="2">Two</option>
+                                            <option value="3">Three</option>
+                                        </select>
+                                    </div>
+                                    <div class="form-inpt">
+                                        <label for="basicInput" class="form-label">Harga Sewa</label>
+                                        <input type="number" placeholder="Masukan Harga" class="form-control" id="basicInput">
+                                    </div>
+                                    <div class="form-inpt form-control">
+                                        <div class="wrap">
+                                            <label for="basicInput" class="form-label">Rincian Pesanan</label>
+                                            <a href="#" class="add">+</a>
+                                        </div>
+                                        <div class="inp-group"></div>
+                                    </div>
+                                    <div class="form-inpt">
+                                        <label for="exampleFormControlTextarea1" class="form-label">Deskripsi</label>
+                                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                                    </div>
+                                    <div class="form-inpt">
+                                        <label for="formFile" class="form-label">Upload Gambar</label>
+                                        <input class="form-control" type="file" id="files" multiple="multiple" accept="image/jpg, image/png, image/jpeg">
+                                        <output id="result" class="img-result">
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                        <div class="form-inpt">
-                            <label for="basicInput" class="form-label">Harga Sewa</label>
-                            <input type="number" placeholder="Masukan Alamat" class="form-control" id="basicInput">
+                        <div class="modal-footer">
+                            <button type="submit" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <button class="btn mb-2 icon-left  btn-success" type="button "><i class="ti-check"></i>selesai</button>
                         </div>
-                        <div class="form-inpt">
-                            <label for="exampleFormControlTextarea1" class="form-label">Deskripsi</label>
-                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                        </div>
-                        <div class="form-inpt">
-                            <label for="formFile" class="form-label">Upload Gambar</label>
-                            <input class="form-control" type="file" id="files" multiple="multiple" accept="image/jpg, image/png, image/jpeg">
-                            <output id="result" class="img-result">
-                        </div>
-                    </div>
-                    <div class="btn-add row justify-content-center align-content-center">
-                        <button class="btn mb-2 icon-left  btn-success" type="button "><i class="ti-check"></i>selesai</i></button>
                     </div>
                 </div>
             </div>
-            <div class="col-md-8">
+            <div class="">
                 <div class="card">
-                    <div class="card-header">
+                    <div class="card-header ">
                         <h4>List Produk</h4>
                     </div>
                     <div class="card-body">
+                        <div class="btn-modal">
+                            <button class="btn mb-2 icon-left  btn-success" data-bs-toggle="modal" data-bs-target="#largeModal" type="button "><i class="bi bi-plus-lg"></i>Tambah Produk</i></button>
+                        </div>
                         <table id="example2" class="table display">
                             <thead>
                                 <tr>
                                     <th>Nama Produk</th>
                                     <th>Kategori</th>
                                     <th>Harga Sewa</th>
-                                    <th>Detail Produk</th>
+                                    <th>Rincian Produk</th>
                                     <th>Deskripsi</th>
                                     <th>Gambar</th>
                                     <th>Aksi</th>
@@ -68,8 +86,14 @@
                                     <td>Tiger Nixon</td>
                                     <td>System Architect</td>
                                     <td>Edinburgh</td>
-                                    <td>61</td>
-                                    <td>2011/04/25</td>
+                                    <td>
+                                        <ul>
+                                            <li>Baju = Cardinal</li>
+                                            <li>Tenda = ya itulah</li>
+                                            <li>rias = wardar</li>
+                                        </ul>
+                                    </td>
+                                    <td>Lorem ipsum, dolor sit amet consectetur adipisicing elit...</td>
                                     <td>img1.jpg</td>
                                     <td>
                                         <div class="d-grid gap-2 d-md-flex justify-content-md-center">
@@ -84,8 +108,14 @@
                                     <td>Garrett Winters</td>
                                     <td>Accountant</td>
                                     <td>Tokyo</td>
-                                    <td>63</td>
-                                    <td>2011/07/25</td>
+                                    <td>
+                                        <ul>
+                                            <li>Baju = Cardinal</li>
+                                            <li>Tenda = ya itulah</li>
+                                            <li>rias = wardar</li>
+                                        </ul>
+                                    </td>
+                                    <td>Lorem ipsum, dolor sit amet consectetur adipisicing elit...</td>
                                     <td>img1.jpg</td>
                                     <td>
                                         <div class="d-grid gap-2 d-md-flex justify-content-md-center">
@@ -101,7 +131,7 @@
                                     <th>Nama Produk</th>
                                     <th>Kategori</th>
                                     <th>Harga Sewa</th>
-                                    <th>Detail Produk</th>
+                                    <th>Rincian Produk</th>
                                     <th>Deskripsi</th>
                                     <th>Gambar</th>
                                     <th>Aksi</th>
